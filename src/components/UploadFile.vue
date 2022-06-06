@@ -5,7 +5,7 @@
       <div class="upload-center">
         <el-upload
             class="upload-demo"
-            action="http://localhost:8003/admin/upload"
+            :action="upload_url"
             multiple
             :file-list="fileList"
         >
@@ -31,7 +31,8 @@ export default {
   name: "UploadFile",
   data() {
     return {
-      fileList: []
+      fileList: [],
+      upload_url: this.$controllServ + "/admin/upload",
     }
   },
   methods: {

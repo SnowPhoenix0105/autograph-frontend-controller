@@ -11,6 +11,12 @@
             <el-menu-item index="upload-files">
               上传课件
             </el-menu-item>
+            <el-menu-item index="manual-intervention">
+              人工干预
+            </el-menu-item>
+            <el-menu-item index="version-manage">
+              版本管理
+            </el-menu-item>
           </el-menu>
 
 
