@@ -1,6 +1,8 @@
 import UploadFile from "@/components/UploadFile";
 import WelcomePage from "@/components/WelcomePage";
+import ManualIntervention from "@/components/ManualIntervention";
 import {createRouter, createWebHashHistory} from "vue-router"
+import VersionManage from "@/components/VersionManage";
 
 const routes = [
     {
@@ -10,6 +12,14 @@ const routes = [
     {
         path: '/upload-files',
         component: UploadFile,
+    },
+    {
+        path: '/manual-intervention',
+        component: ManualIntervention,
+    },
+    {
+        path: '/version-manage',
+        component: VersionManage,
     },
 ]
 
